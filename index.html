@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio Renan J Paula</title>
+    <title>Portifólio Helena Mignogna</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/global.css">
     <link rel="stylesheet" href="assets/css/header.css">
@@ -28,21 +31,23 @@
 <body>
     <main class="main">
         <header class="header">
-            <img src="assets/img/my-photo.png" alt="Foto de Perfil" class="photo" id="profile.photo">
+            <div class="bg-photo"><img src="./data/imgs/green.jpg" alt="Profile photo" class="photo"></div>
+            <div class="presentation">
+                <h1>Olá👋 meu nome é <br><span>Helena Mignogna</span></h1>
+                <h2>Sou Desenvolvedora Frontend</h2>
 
-            <h1 class="title">
-                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
-            </h1>
 
-            <div class="information">
-                <p class="job" id="profile.job">Carregando...</p>
-                <p class="location" id="profile.location">Carregando...</p>
+                <p class="location" id="profile.location"><i class="fa-solid fa-location-dot"></i> São Paulo/SP</p>
                 <p class="phone">
-                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
+                    <a href="tel:(11) 9 8236-2156" id="profile.phone"><i class="fa-brands fa-whatsapp"></i> 11
+                        98236-2156</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
+                    <a href="mailto:hmignogna1@hotmail.com" id="profile.email"><i class="fa-solid fa-envelope"></i>
+                        hmignogna1@hotmail.com</a>
                 </p>
+                <p class="linkedin"><a href="https://www.linkedin.com/in/helenamignogna"><i
+                            class="fa-brands fa-linkedin"></i>www.linkedin.com/in/helenamignogna</a></p>
             </div>
         </header>
 
@@ -56,15 +61,27 @@
                     <section class="tools">
                         <h3>Ferramentas:</h3>
                         <ul id="profile.skills.hardSkills">
+                            <li><img src="./data/imgs/html.png" alt="HTML icon"></li>
+                            <li><img src="./data/imgs/css.png" alt="CSS icon"></li>
+                            <li><img src="./data/imgs/js.png" alt="Javascript Icon"></li>
+                            <li><img src="./data/imgs/react.png" alt="React icon"></li>
+                            <li><img src="./data/imgs/nodejs.png" alt="Node icon"></li>
+                            <li><img src="./data/imgs/geengit.svg" alt="Github icon"></li>
+                            <li><img src="./data/imgs/git.png" alt="Git icon"></li>
+                            <li><img src="./data/imgs/figma-2048.png" alt="Figma icon"></li>
                         </ul>
                     </section>
 
                     <section class="personal">
                         <h3>Pessoal:</h3>
                         <ul id="profile.skills.softSkills">
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
-                            <li>Carregando...</li>
+                            <li>Atenção aos detalhes</li>
+                            <li>Organização</li>
+                            <li>Proatividade</li>
+                            <li>Adaptabilidade</li>
+                            <li>Foco nos resultados</li>
+                            <li>Trabalho em equipe</li>
+                            <li>Facilidade de comunicação</li>
                         </ul>
                     </section>
                 </div>
@@ -78,7 +95,10 @@
 
             <div class="content">
                 <ul class="languages" id="profile.languages">
-                    <li>Carregando...</li>
+                    <li>Português - língua nativa</li>
+                    <li>Inglês - avançado</li>
+                    <li>Espanhol - intermediário</li>
+                    <li>Italiano - avançado</li>
                 </ul>
             </div>
         </section>
@@ -90,6 +110,31 @@
 
             <div class="content">
                 <ul class="portfolio" id="profile.portfolio">
+                    <li>
+                        <h3 class="title github">Meu Portfolio</h3>
+                        <a href="https://mignogna.github.io/helena-portfolio/"
+                            target="_blank">www.mignogna.github.io/helena-portfolio</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Mig Italian Restaurant</h3>
+                        <a href="https://mignogna.github.io/Mig_ItalianRestaurant/"
+                            target="_blank">www.mignogna.github.io/Mig_ItalianRestaurant</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Comforty Furniture</h3>
+                        <a href="https://github.com/Mignogna/Comforty_Furniture"
+                            target="_blank">www.github.com/Mignogna/Comforty_Furniture</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">Wikipedia Copy</h3>
+                        <a href="https://github.com/Mignogna/Wikipedia_Copy"
+                            target="_blank">www.github.com/Mignogna/Wikipedia_Copy</a>
+                    </li>
+                    <li>
+                        <h3 class="title github">YouTube Copy</h3>
+                        <a href="https://github.com/Mignogna/YouTube_Copy"
+                            target="_blank">www.github.com/Mignogna/YouTube_Copy</a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -101,6 +146,40 @@
 
             <div class="content">
                 <ul class="experience" id="profile.professionalExperience">
+                    <li>
+                        <h3 class="title" id="profile.professionalExperience.name">Stateroom Attendant - Royal Caribbean
+                            Group</h3>
+                        <p class="period" id="profile.professionalExperience.period">dezembro/2012 - maio/2014 e
+                            março/2019 - agosto/2022.</p>
+                        <p class="desc" id="profile.professionalExperience.description">- Oferecer aos passageiros,
+                            juntos com a
+                            equipe de tripulantes, experiências de cruzeiros memoráveis atendendo-os com cordialidade e
+                            empatia.<br>
+                            - Gerenciamento dos serviços de acomodação, antecipando as necessidades dos passageiros.<br>
+                            - Gestão de tempo, organização e atenção aos detalhes.<br>
+                            -Comprometida em seguir os procedimentos de segurança e manutenção do ambiente de trabalho,
+                            minimizando perdas e danos.</p>
+                    </li>
+                    <li>
+                        <h3 class="title" id="profile.professionalExperience.name">Agente de viagens - CVC Agência e
+                            Operadora de Turismo</h3>
+                        <p class="period" id="profile.professionalExperience.period">outubro/2017 - dezembro/2018</p>
+                        <p class="desc" id="profile.professionalExperience.description">-Atendimento e consultoria ao
+                            cliente explicando os pacotes e destinos turísticos, ajudando-os a escolher os melhores
+                            destinos para suas férias de acordo com suas expectativas, tendo como resultado a construção
+                            de relacionamentos duradouros.<br>
+                            -Atuação como mediadora em situações de conflitos e negociação de vendas, encontrando
+                            soluções satisfatórias para clientes e parceiros.</p>
+                    </li>
+                    <li>
+                        <h3 class="title" id="profile.professionalExperience.name">Vendedora - HStern Joalheria</h3>
+                        <p class="period" id="profile.professionalExperience.period">outubro/2014 - dezembro/2015</p>
+                        <p class="desc" id="profile.professionalExperience.description">- Atendimento ao cliente,
+                            apresentando as várias coleções de joias.<br>
+                            - Esclarecimentos sobre a limpeza e conservação das peças.<br>
+                            - Foco na satisfação do cliente e em atingir as metas de vendas da empresa.<br>
+                            - Habilidade de negociação de vendas.</p>
+                    </li>
                 </ul>
             </div>
         </section>

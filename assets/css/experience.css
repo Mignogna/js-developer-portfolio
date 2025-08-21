@@ -23,6 +23,9 @@
     height: 1rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../img/icons/calendar.svg');
+    background-image: url('../img/icons/calendar_today_54dp_597976_FILL0_wght400_GRAD0_opsz48.svg');
     margin-right: .5rem;
+}
+.desc{
+   line-height: 1.8rem;
 }
